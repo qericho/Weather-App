@@ -31,7 +31,7 @@ const Days = () => {
                 {fourDays.map((day, index) => (
                     <div 
                         key={index} 
-                        className="w-[80px] h-full cursor-pointer rounded bg-[#272E37] hover:bg-[#fff] hover:text-black text-white hover:text-black"
+                        className="w-[100px] md:w-[80px] h-full cursor-pointer rounded bg-[#272E37] hover:bg-[#fff] hover:text-black text-white"
                     >
                         <div className="flex flex-col items-center justify-center gap-2 w-full h-full">
                             <span className="text-3xl">

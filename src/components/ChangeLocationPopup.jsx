@@ -21,8 +21,8 @@ const ChangeLocationPopup = () => {
     <div
       className={`absolute left-0 right-0 mx-auto ${
         isOpen
-          ? "opacity-100 duration-500 top-50"
-          : "opacity-0 duration-500 pointer-events-none top-40"
+          ? "opacity-100 duration-500 top-30 md:top-50"
+          : "opacity-0 duration-500 pointer-events-none top-20 md:top-40"
       } max-w-[300px] md:max-w-[400px] h-[150px] bg-gradient-to-r from-green-200 to-[#5460E6] z-10 rounded-xl`}
     >
       <div className="w-full h-full flex items-center justify-center px-2">
@@ -34,7 +34,7 @@ const ChangeLocationPopup = () => {
           onChange={(e) => setNewLocation(e.target.value)}
         />
         <button
-          className="md:text-[15px] text-sm px-5 py-2 bg-[#5460E6] hover:bg-[#2e368e] cursor-pointer rounded-r-xl"
+          className="md:text-[15px] text-sm px-5 py-2 bg-[#7fa2de] hover:bg-[#2e368e] cursor-pointer rounded-r-xl"
           onClick={handleChangeLocation}
         >
           Change
