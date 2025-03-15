@@ -23,7 +23,7 @@ const ChangeLocationPopup = () => {
         isOpen
           ? "opacity-100 duration-500 top-30 md:top-50"
           : "opacity-0 duration-500 pointer-events-none top-20 md:top-40"
-      } max-w-[300px] md:max-w-[400px] h-[150px] bg-gradient-to-r from-green-200 to-[#5460E6] z-10 rounded-xl`}
+      } max-w-[300px] md:max-w-[400px] h-[100px] bg-gradient-to-r from-green-200 to-[#5460E6] z-10 rounded-xl`}
     >
       <div className="w-full h-full flex items-center justify-center px-2">
         <input
